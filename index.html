@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatble" content="IE= edge" ;>
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title> Kshitiz - Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="leftsection.css">
+    <link rel="stylesheet" href="rightsection.css">
+    <link rel="stylesheet" href="innformation.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kshitiz Saxena</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/" class="tooltip">
+                            <div class="tooltip-box">
+                                <h6>hi, this is the about section,check other sections to know more about me</h6>
+
+                            </div>About
+                        </a></li>
+                    <li><a href="/" class="tooltip">
+                            <div class="tooltip-box">
+                                <h6>My skills include:</h6>
+                                <ul>
+                                    <li>HTML, CSS, JavaScript, and Python development</li>
+                                </ul>
+                            </div>Skills
+                        </a>
+                    </li>
+                    <li><a href="/" class="tooltip">
+                            <div class="tooltip-box">
+                                <h6>My projects are linked to my GithuB account,
+                                   if you are interested please check out my Github through the link i have placed on
+                                   the interface
+                                </h6>
+                            </div>Projects
+                        </a>
+                    </li>
+                    <li><a href="/" class="tooltip">
+                            <div class="tooltip-box">
+                                <h6>
+                                    Email: saxenaktz@gmail.com
+                                    Phone: +91 9460117936
+                                </h6>
+                            </div>Contact Details
+                         </a>
+                    </li>
+                </ul>       
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="Firstsection">
+            <div class="leftsection">
+                <div class="info">
+                    <h5>My name is <span class="purple"> kshitiz saxena</span> and this is my Portfolio. I am a
+                        passionate</h5>
+                    <span id="element"></span>
+                    <div class="buttons">
+                        <button class="btn downloadresume">Download Resume</button>
+                        <button class="btn Githubbtn" onclick="window.open('https://github.com/saiki038', '_blank')">Visit GitHub</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="kshitiz.jpg.png" alt="">
+                
+            </div>
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Graphic designer', 'Web designer'],
+            typeSpeed: 70,
+        });
+    </script>
+</body>
+
+</html>
