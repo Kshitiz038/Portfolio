@@ -1,0 +1,72 @@
+*{
+    margin: 6px;;
+    padding: 0;
+}
+body{
+    background-color: #00003f;
+     color: aliceblue;
+    font-family: 'poppins',sans-serif;
+    background-image: url(background1.png);
+}
+
+.left{
+    font-size: 1.5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000017;
+    height: 83px;
+    border-radius: 26px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-size: 1.02rem;
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+}
+
+ul{
+    list-style: none;
+}
+.Firstsection{
+    display: flex;
+    justify-content: space-around;
+}
+.Secondsection{
+    max-width: 90vw;
+    margin: auto;
+}
+
+.info{
+    border-radius: 19px;
+}
+ main hr{
+    border: 0;
+    background-color: rgb(0, 183, 255);
+    height: 2px;
+    margin: 10px;
+}
+.btn{
+    height: 32px;
+    font-family: cursive;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.downloadresume{
+    background-color: black;
+    color: white;
+}
+.Githubbtn{
+    background-color: black;
+    color: white;
+}
