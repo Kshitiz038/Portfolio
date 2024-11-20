@@ -1,0 +1,9 @@
+.rightsection{
+    width: 50%;
+}
+.rightsection img{
+    width: 60%;
+    margin: 80px;
+    margin-top: 2px;
+    border-radius: 25px;
+}

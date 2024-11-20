@@ -1,0 +1,11 @@
+.purple {
+    color: purple;
+    background-color: #f3e5f5; /* Light purple highlight */
+    padding: 2px 5px; /* Space around text for better visibility */
+    border-radius: 3px; /* Rounded corners */
+    font-weight: bold; /* Make text bold */
+}
+
+#element{
+    color: #a5a8ff;
+}
