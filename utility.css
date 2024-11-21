@@ -1,9 +1,10 @@
 .purple {
-    color: purple;
-    background-color: #f3e5f5; /* Light purple highlight */
+    color: ghostwhite;
+    /*background-color: #f3e5f5;  Light purple highlight */
     padding: 2px 5px; /* Space around text for better visibility */
     border-radius: 3px; /* Rounded corners */
     font-weight: bold; /* Make text bold */
+    font-family: cursive;
 }
 
 #element{
