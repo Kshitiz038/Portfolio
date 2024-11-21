@@ -1,0 +1,5 @@
+title: My Portfolio
+description: A personal portfolio created with Jekyll.
+theme: jekyll-theme-cayman  # Or any theme you prefer
+baseurl: ""
+url: "https://saiki038.github.io"
