@@ -1,0 +1,42 @@
+/* @media (max-width:728px) { 
+    body {
+        background-color: green;
+
+    }
+ } */
+@media screen and (max-width: 600px) {
+    body {
+      font-size: 12px;
+      background-color: lightgray;
+    }
+}
+@media screen and (max-width: 600px) {
+    .info{
+        font-size: 19px;
+        margin: -70px -38px;
+    }
+    .buttons{
+        padding: 60px 1px;
+        margin:auto;
+        
+    }
+    #element{
+        font-size: 25px;
+    }
+    .rightsection{
+        margin: 25px;
+        width: 50%
+    }
+    .rightsection img{
+        margin: 15px;
+        width: 115%;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    h5{
+        font-size: 20px;    
+    }
+    .purple{
+        padding: 0px 0px;
+    }
+}

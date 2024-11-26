@@ -38,6 +38,9 @@ nav ul li a:hover{
 ul{
     list-style: none;
 }
+h5 ul{
+    list-style:lower-latin;
+}
 .Firstsection{
     display: flex;
     justify-content: space-around;

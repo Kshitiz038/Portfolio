@@ -6,4 +6,10 @@
     margin: 80px;
     margin-top: 2px;
     border-radius: 25px;
+    height: auto;
+}
+.img {
+    min-width: 300px; /* Prevent the container from shrinking */
+    overflow: visible; /* Ensure the image isn't cropped */
+    min-width: none;
 }
