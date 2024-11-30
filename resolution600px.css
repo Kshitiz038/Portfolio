@@ -16,11 +16,19 @@
         margin: -70px -38px;
     }
     .buttons{
-        padding: 60px 1px;
-        margin:auto;
-        
+        margin-top: 60px;
+        margin-bottom: 53px;
+        display: none;   
+
+    }
+    .buttonss{
+        margin: 0px 60px;
+        display: flex;
     }
     #element{
+        font-size: 25px;
+    }
+    #elements{
         font-size: 25px;
     }
     .rightsection{
@@ -39,4 +47,34 @@
     .purple{
         padding: 0px 0px;
     }
-}
+    .Mydata{
+        margin-top: 148px;
+        margin-left: -47px;
+        .Mydata-Skills{
+            margin: 100px 60px;
+            h5{
+                font-size: 14   px;
+            }
+            h1{
+                font-size: 33px;
+            }
+            .image1{
+                margin: 1px -630px;
+            }
+        }
+        .Mydata-Skills .box{
+            width: 380px;
+            margin: 15px 8px;
+        }
+        .Mydata-Skills .vertical{
+            margin: 8px 46px;
+        }
+        .Mydata-Projects{
+            margin: 100px 60px;
+        }
+        .Mydata-ContactMe{
+            margin: 30px 60px;
+        }
+    }
+    
+}  

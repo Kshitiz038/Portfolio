@@ -4,9 +4,10 @@
 }
 body{
     background-color: #00003f;
-     color: aliceblue;
+    color: aliceblue;
     font-family: 'poppins',sans-serif;
     background-image: url(background1.png);
+    background-attachment: fixed;      
 }
 
 .left{
@@ -17,7 +18,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     background-color: #000017;
-    height: 83px;
+    height: 70px;
     border-radius: 26px;
 }
 nav ul{
@@ -25,15 +26,25 @@ nav ul{
     justify-content: center;
 
 }
-nav ul li a{
+/* .right ul { 
+    list-style-type: none;
+    padding: 0; 
+} */
+/* .right li { 
+    cursor: pointer;
+    margin: 5px 0;
+    margin-top: 50px;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
     text-decoration: none;
-    color: white;
-}
-nav ul li a:hover{
+     color: white; 
+}  */
+/* nav ul li a:hover{ 
     font-size: 1.02rem;
     text-decoration: none;
-    color: rgb(177, 177, 177);
-}
+     color: rgb(177, 177, 177); 
+ } */
 
 ul{
     list-style: none;
@@ -53,11 +64,19 @@ h5 ul{
 .info{
     border-radius: 19px;
 }
- main hr{
+
+/* main hr{ 
     border: 0;
-    background-color: rgb(0, 183, 255);
+    background-color: rgb(0, 14, 90);
     height: 2px;
-    margin: 10px;
+    margin: 10px; 
+} */
+.buttons{
+    margin-left: 80px;
+    
+} 
+.buttonss{
+    display: none;
 }
 .btn{
     height: 32px;
@@ -65,11 +84,78 @@ h5 ul{
     border-radius: 5px;
     font-size: 15px;
 }
+
+       
 .downloadresume{
     background-color: black;
     color: white;
 }
+
 .Githubbtn{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
+    background: white;
+    color: black;
 }
+
+.Mydata{
+    .Mydata-Skills{
+        margin: 230px 60px;
+        h5{
+        margin: 0px 0px;
+        color: rgb(154, 154, 154);
+        }
+        h1{
+            color:#fff1b9 ;  
+            font-size: 45px;
+        }
+        .image1{
+            width: 25%;
+            left: 790px;
+            position: relative;
+            border-radius: 180px;
+        }
+    }    
+        
+    .Mydata-Projects{
+            margin: 230px 60px;
+        }
+    .Mydata-ContactMe{
+            margin: 100px 60px;
+        }
+    
+        .Projectsbtn{
+            height: 32px;
+            font-family: cursive;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+        .ContactMebtn{
+            height: 32px;
+            font-family: cursive;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+    }
+    
+.Mydata-Skills .box{ 
+    background: #000056;
+    width: 22vw;
+    margin: 20px;
+    height: 10px;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: -225px;
+}
+.Mydata-Skills .vertical{
+    background-color:#000056;
+    width: 2px;
+    height: 60px;
+    margin: 5px 38px;
+    .verticaltext{
+        margin: 60px -17px;
+        color:  #fff1b9;
+    }
+}    
+

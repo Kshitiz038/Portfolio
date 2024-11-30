@@ -1,11 +1,11 @@
-.tooltip {
+/* .tooltip { 
     position: relative;
     display: inline-block;
     text-decoration: none;
 }
 
 /* The tooltip box (hidden by default) */
-.tooltip .tooltip-box {
+/* .tooltip .tooltip-box { 
     visibility: hidden;
     width: 150px;
     background-color: #333;
@@ -15,47 +15,47 @@
     padding: 8px;
     position: absolute;
     z-index: 1;
-    top: 120%; /* Position below the link */
+    top: 120%; 
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
-}
+}*/
 
 /* Show the tooltip box on hover */
-.tooltip:hover .tooltip-box {
+/* .tooltip:hover .tooltip-box { 
     visibility: visible;
     opacity: 1;
     font-size :1.02rem;
-}
+} */
 
 /* Add an arrow below the tooltip box */
-.tooltip .tooltip-box::after {
+/* .tooltip .tooltip-box::after { 
     content: "";
     position: absolute;
-    top: 100%; /* Arrow on the bottom */
+    top: 100%;
     left: 50%;
     transform: translateX(-50%);
     border-width: 5px;
     border-style: solid;
     border-color: #333 transparent transparent transparent;
-}
-.tooltip-box > li{
+}*/
+/* .tooltip-box > li{ 
     width: 280px;
 }
 .tooltip-box ul {
-    list-style-type: disc; /* Adds bullet points */
+    list-style-type: disc; 
     margin: 0;
-    padding-left: 20px; /* Indent for bullet points */
-    color: #fff; /* Text color */
-}
+    padding-left: 20px; 
+    color: #fff; 
+} */
 
-.tooltip-box a {
-    color: #1e90ff; /* Link color */
+/* .tooltip-box a { 
+    color: #1e90ff; 
     text-decoration: none;
 }
 
 .tooltip-box a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
+    text-decoration: underline;
+}*/

@@ -9,4 +9,16 @@
 
 #element{
     color: #a5a8ff;
+    font-size: 35px;
+    margin: -4px;
+}
+#element1{
+    color: #a5a8ff;
+    font-size: 35px;
+    margin: -4px;
+}
+
+
+.typed-cursor.typed-cursor--blink {
+    visibility: hidden;
 }

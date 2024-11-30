@@ -20,60 +20,25 @@
 </head>
 
 <body>
+    
     <header>
         <nav>
             <div class="left">Kshitiz Saxena</div>
-            <div class="right">
-                <ul>
-                    <li><a href="/" class="tooltip">
-                            <div class="tooltip-box">
-                                <h6>hi, this is the about section,check other sections to know more about me</h6>
+            
+            <div class="buttons">
+                <button class="btn downloadresume">Download Resume</button>
+                <button class="btn Githubbtn" onclick="window.open('https://github.com/saiki038', '_blank')">Visit GitHub</button>
 
-                            </div>About
-                        </a></li>
-                    <li><a href="/" class="tooltip">
-                            <div class="tooltip-box">
-                                <h6>My skills include:</h6>
-                                <ul>
-                                    <li>HTML, CSS, JavaScript, and Python development</li>
-                                </ul>
-                            </div>Skills
-                        </a>
-                    </li>
-                    <li><a href="/" class="tooltip">
-                            <div class="tooltip-box">
-                                <h6>My projects are linked to my GithuB account,
-                                   if you are interested please check out my Github through the link i have placed on
-                                   the interface
-                                </h6>
-                            </div>Projects
-                        </a>
-                    </li>
-                    <li><a href="/" class="tooltip">
-                            <div class="tooltip-box">
-                                <h6>
-                                    Email: saxenaktz@gmail.com
-                                    Phone: +91 9460117936
-                                </h6>
-                            </div>Contact Details
-                         </a>
-                    </li>
-                </ul>       
             </div>
-
         </nav>
     </header>
     <main>
         <section class="Firstsection">
             <div class="leftsection">
                 <div class="info">
-                    <h5>My name is <span class="purple"><ul>Kshitiz Saxena</ul></span> and this is my Portfolio.</h5><h5>My passion is</h5>
-                    <span id="element"></span>
-                    <div class="buttons">
-                        <button class="btn downloadresume">Download Resume</button>
-                        <button class="btn Githubbtn" onclick="window.open('https://github.com/saiki038', '_blank')">Visit GitHub</button>
-
-                    </div>
+                    <span id="elements"></span>
+                    <h5><span id="element"></span></h5>                    
+                    
                 </div>
             </div>
             <div class="rightsection">
@@ -81,15 +46,51 @@
                 
             </div>
         </section>
-
+        <div class="Mydata">
+            <div class="Mydata-Skills"> 
+                <h5><span>What i have done so far</span></h5>
+                <h1>Skills preview</h1>
+                <img class="image1" src="developer.png" alt="">
+                <div class="box">
+                    <div class="vertical">
+                        <div class="verticaltext">
+                            HTML
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <div class="verticaltext">
+                            CSS
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <div class="verticaltext">
+                            JScript
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <div class="verticaltext">
+                            React.Js
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Mydata-Projects">    
+                <button class="Projectsbtn">Projects</button>
+                <h5></h5>
+            </div>
+            <div class="Mydata-ContactMe">    
+                <button class="ContactMebtn">Contact-Me</button>   
+                <h5></h5>
+            </div> 
+            <div class="buttonss">
+                <button class="btn downloadresume">Download Resume</button>
+                <button class="btn Githubbtn" onclick="window.open('https://github.com/saiki038', '_blank')">Visit GitHub</button>
+            </div>     
+        </div>    
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Web developing', 'Graphic designing', 'Web designing'],
-            typeSpeed: 100,
-        });
-    </script>
+    <script src="script1.js"></script>
+    
 </body>
 
 </html>
