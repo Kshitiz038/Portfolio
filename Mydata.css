@@ -7,7 +7,7 @@
         }
         h1{
             color:#fff1b9 ;  
-            font-size: 45px;
+            font-size: 33px;
         }
         .image1{
             width: 25%;
@@ -33,7 +33,7 @@
     height: 60px;
     margin: 5px 38px;
     .verticaltext{
-        margin: 60px -17px;
+        margin: 45px -17px;
         color:  #fff1b9;
     }
 }    

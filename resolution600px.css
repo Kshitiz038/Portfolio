@@ -53,7 +53,7 @@
         .Mydata-Skills{
             margin: 100px 60px;
             h5{
-                font-size: 14   px;
+                font-size: 14px;
             }
             h1{
                 font-size: 33px;
@@ -67,13 +67,23 @@
             margin: 15px 8px;
         }
         .Mydata-Skills .vertical{
-            margin: 8px 46px;
+            margin: 0px 46px;
         }
         .Mydata-Projects{
             margin: 100px 60px;
+            .Projects-info{
+                font-size: 18px;
+                border-radius: 10px;
+                margin: 18px 7px;
+                margin-right: -40px;
+                h5{
+                    font-size: 18px;
+                }   
+            }
         }
         .Mydata-ContactMe{
             margin: 30px 60px;
+           
         }
     }
     
