@@ -29,6 +29,12 @@
       {
         "image-alt": "off"
       }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id": "off"
+      }
     ]
   }
 }
