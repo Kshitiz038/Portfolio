@@ -6,18 +6,19 @@ body{
     background-color: #00003f;
     color: aliceblue;
     font-family: 'poppins',sans-serif;
-    background-image: url(background1.png);
+    background-image: url(galaxy.jpg);
     background-attachment: fixed;      
 }
 
 .left{
-    font-size: 1.5rem;
+    font-size: 34px;
+    font-family: Cooper black;
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #000017;
+    background-color: #593a5b;
     height: 70px;
     border-radius: 26px;
 }
