@@ -17,26 +17,31 @@
         }   
     }    
 }    
-.Mydata-Skills .box{ 
-    background: #000056;
-    width: 22vw;
-    margin: 20px;
-    height: 10px;
-    display: flex;
+.SkillsInfo{
+    width: 300px;
+    padding: 40px;
+    border: 1px solid #ccc;
     border-radius: 10px;
-    margin-left: 100px;
-    margin-top: -225px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -270px;
 }
-.Mydata-Skills .vertical{
-    background-color:#000056;
-    width: 2px;
-    height: 60px;
-    margin: 5px 38px;
-    .verticaltext{
-        margin: 45px -17px;
-        color:  #fff1b9;
-    }
-}    
+
+.SkillsInfo h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: cornsilk;
+}
+
+.SkillsInfo ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.SkillsInfo li {
+    font-size: 16px;
+    color: cornsilk;
+}
+
 .Mydata-ContactMe a{
     color: cornsilk;
     font-size: 22px; 
@@ -72,6 +77,10 @@
     border-radius: 5px;
     font-size: 15px;
 }
+.Mydata-ContactMe svg{
+    margin: -8px 15px;
+    color: bisque;
+}
 
 
 .with-point {
@@ -89,6 +98,4 @@
     color: burlywood; /* Color of the point */
     font-size: 18px; /* Adjust the size of the point */
 }
-.number{
-    color: cornsilk;
-}
+

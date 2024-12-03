@@ -75,6 +75,19 @@ h5 ul{
     margin-left: 80px;
     
 } 
+.LinkedIn-logo{
+    color: white;
+    margin-right: 25px;
+}
+.github-logo{
+    color: white;
+}
+.LinkedIn-logo:hover{
+    color: bisque;
+}
+.github-logo:hover{
+    color:bisque;
+}
 .buttonss{
     display: none;
 }
@@ -85,15 +98,5 @@ h5 ul{
     font-size: 15px;
 }
 
-       
-.downloadresume{
-    background-color: black;
-    color: white;
-}
 
-.Githubbtn{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    background: white;
-    color: black;
-}
+    
