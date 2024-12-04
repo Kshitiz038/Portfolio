@@ -1,0 +1,56 @@
+@media screen and (max-width: 800px) {
+    body {
+      font-size: 12px;
+      background-color: lightgray;
+    }
+    .info{
+        padding: 1px;
+        #element{
+            font-size: 40px;
+        }
+
+    }
+    .Mydata{
+        display:flex!important;
+        flex-wrap: wrap;
+    }
+    nav{
+        margin-right: -40px;
+    }
+    .rightsection img{
+        width: 262px;
+        margin-left: 120px;
+    }
+    hr{
+        width: 700px;
+    }
+    .Mydata-Skills{
+        .Skills{
+            margin: 0px 46px;
+        }
+        .SkillsInfo{
+            width: 409px;
+        }
+    }
+   
+    .Mydata-Projects{
+        .Projects{
+            margin: 0px -110px;
+        }
+        .Projects-info{
+            font-size: 20px;
+            width: 389px;
+            margin: 15px -144px;
+        }
+    }
+    .Mydata-ContactMe{
+        display: none;
+    }
+    .Mydata-ContactMe h5{
+        margin-top: -50px;
+        margin: 0px -195px;
+    }
+    .Mydata-ContactMe svg{
+        margin: -7px 75px !important;
+    }
+}   

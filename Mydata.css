@@ -1,6 +1,6 @@
 .Mydata{
+    display: flex;
     .Mydata-Skills{
-        margin: 230px 60px;
         h5{
         margin: 0px 0px;
         color: rgb(154, 154, 154);
@@ -8,8 +8,7 @@
         .Skills{
             font-family: Brush Script MT;
             font-size: 55px;
-            color:cornsilk ;
-            margin: -60px 0px; 
+            color:cornsilk ; 
             position: absolute; 
         }
         .image1{
@@ -26,8 +25,10 @@
     border: 2px solid burlywood;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: -270px;
+    margin-top: 95px;
     color: burlywood;
+    margin-right: 100px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .SkillsInfo h3 {
@@ -49,13 +50,13 @@
 .Mydata-ContactMe a{
     color: cornsilk;
     font-size: 22px; 
+    margin-left: -70px;
 }
-.Mydata-ContactMe .number{
-    font-size: 22px;
-    margin: 0px 12px;
-}
+
+
 .Mydata-Projects{
-    margin: 230px 60px;
+    margin: 0px 99px;
+    padding-left: 60px;
 }
 .Projects{
     font-family: Brush Script MT;
@@ -68,14 +69,17 @@
     border-radius: 10px;
     margin: 18px 7px;
     border: black;
-    margin-right: 800px;
     border: 1px solid ;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
+
 .Projects-info ul{
     color: cornsilk;
+    font-size: 20px;
 }
 .Mydata-ContactMe{
-    margin: 100px 60px;
+    margin: 100px 378px;
 }
 .Projectsbtn{
     height: 32px;
@@ -90,7 +94,7 @@
     font-size: 15px;
 }
 .Mydata-ContactMe svg{
-    margin: -8px 15px;
+    margin: -7px 101px;
     color: bisque;
 }
 

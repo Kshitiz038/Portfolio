@@ -9,6 +9,14 @@
       font-size: 12px;
       background-color: lightgray;
     }
+    nav{
+      margin-right: -210px !important;
+    }
+}
+@media screen and (max-width:600px){
+    .Mydata{
+        display: none;
+    }
 }
 @media screen and (max-width: 600px) {
     .info{
@@ -22,19 +30,22 @@
 
     }
     .buttonss{
-        margin: 0px 155px;
+        margin: 0px 50px;
         display: flex;
+        margin-top: -80px;
     }
     #element{
-        font-size: 25px;
+        font-size: 43px;
     }
     #elements{
         font-size: 50px;
-        margin: 10px;
+    }
+    .leftsection{
+        width: 60%;
     }
     .rightsection{
         margin: 25px;
-        width: 50%
+        width: 40%
     }
     .rightsection img{
         margin: 15px;
@@ -48,8 +59,11 @@
     .purple{
         padding: 0px 0px;
     }
+    hr{
+        width: 570px!important;
+    }
     .Mydata{
-        margin-top: 148px;
+        
         margin-left: -47px;
         .Mydata-Skills{
             margin: 100px 60px;
@@ -66,6 +80,7 @@
             .Skills{
                padding-bottom: 65px;
                padding-left: 21px;
+               margin: -75px 0px;
             }
         }
         .SkillsInfo{
@@ -94,27 +109,26 @@
         }
         .Mydata-Projects{
             margin: 100px 60px;
+            .Projects{
+                margin: -10px -30px;
+                margin-top: -170px;
+            }
             .Projects-info{
-                font-size: 18px;
+                font-size: 18px !important;
                 border-radius: 10px;
-                margin: 18px 7px;
+                margin: 26px -44px;
                 margin-right: -40px;
                 h5{
                     font-size: 18px;
                 }   
             }
         }
-        .Mydata-ContactMe{
-            margin: 30px 60px;
-            a{
-                font-size: 16px;
-                margin: 1px 1px;
-                margin-left: 15px;
-            }
-            svg{
-                margin: -5px 1px;
-            }
-        }
+       
+           
+        
+    }
+    .Mydata-ContactMe svg{
+        margin: 1px 1px;
     }
     
 }  
