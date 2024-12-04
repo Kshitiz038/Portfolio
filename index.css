@@ -11,8 +11,9 @@ body{
 }
 
 .left{
-    font-size: 34px;
+    font-size: 39px;
     font-family: Cooper black;
+    /* padding: 80px; */
 }
 nav{
     display: flex;
@@ -82,7 +83,7 @@ body hr{
 } 
 .LinkedIn-logo{
     color: white;
-    margin-right: 25px;
+    margin-right: 65px;
 }
 .github-logo{
     color: white;
