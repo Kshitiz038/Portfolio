@@ -12,6 +12,9 @@
     nav{
       margin-right: -210px !important;
     }
+    .left{
+        font-family: Cooper black;
+    }
 }
 @media screen and (max-width:600px){
     .Mydata{
@@ -36,9 +39,11 @@
     }
     #element{
         font-size: 43px;
+        font-family: Brush Script MT;
     }
     #elements{
         font-size: 50px;
+        font-family: Brush Script MT;
     }
     .leftsection{
         width: 60%;
@@ -81,6 +86,7 @@
                padding-bottom: 65px;
                padding-left: 21px;
                margin: -75px 0px;
+               font-family: Brush Script MT;
             }
         }
         .SkillsInfo{
@@ -112,6 +118,7 @@
             .Projects{
                 margin: -10px -30px;
                 margin-top: -170px;
+                font-family: Brush Script MT;
             }
             .Projects-info{
                 font-size: 18px !important;
