@@ -33,6 +33,9 @@
         .SkillsInfo{
             width: 409px;
         }
+        .SkillsInfo li{
+            font-size: 22px;
+        }
     }
    
     .Mydata-Projects{
@@ -43,6 +46,9 @@
             font-size: 20px;
             width: 389px;
             margin: 15px -175px;
+        }
+        .Projects-info ul{
+            font-size: 17px;
         }
     }
     .Mydata-ContactMe{
