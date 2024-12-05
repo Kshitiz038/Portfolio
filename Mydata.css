@@ -9,7 +9,8 @@
             font-family: Brush Script MT;
             font-size: 55px;
             color:cornsilk ; 
-            position: absolute; 
+            position: absolute;
+            margin-left: 30px; 
         }
         .image1{
             width: 25%;
@@ -27,8 +28,9 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 95px;
     color: burlywood;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     background-color: rgba(255, 255, 255, 0.3);
+    margin-left: 35px;
 }
 
 .SkillsInfo h3 {
@@ -60,11 +62,13 @@
 .Mydata-Projects{
     margin: 0px 99px;
     padding-left: 60px;
+    margin-left: 158px;
 }
 .Projects{
     font-family: Brush Script MT;
     font-size: 65px;
     color: cornsilk;
+    padding-left: 580px;
 }
 .Projects-info{
     font-size: 22px;
@@ -72,9 +76,10 @@
     border-radius: 10px;
     margin: 18px 7px;
     border: black;
-    border: 1px solid ;
+    border: 2px solid ;
     padding: 50px;
     background-color: rgba(255, 255, 255, 0.3);
+    margin-left: 160px;
 }
 
 .Projects-info ul{
@@ -88,7 +93,8 @@
     color: rgb(255, 204, 0);
 }
 .Mydata-ContactMe{
-    margin: 100px 378px;
+    margin-left: 425px;
+    margin-top: 85px;
 }
 .Projectsbtn{
     height: 32px;

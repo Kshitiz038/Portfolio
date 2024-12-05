@@ -117,7 +117,7 @@
         .Mydata-Projects{
             margin: 100px 60px;
             .Projects{
-                margin: -10px -30px;
+                margin-left: -600px;
                 margin-top: -170px;
                 font-family: Brush Script MT;
             }

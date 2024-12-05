@@ -36,12 +36,12 @@
    
     .Mydata-Projects{
         .Projects{
-            margin: 0px -110px;
+            margin-left: -755px;
         }
         .Projects-info{
             font-size: 20px;
             width: 389px;
-            margin: 15px -144px;
+            margin: 15px -175px;
         }
     }
     .Mydata-ContactMe{
