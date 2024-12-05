@@ -46,6 +46,9 @@
     font-size: 20px;
     color: cornsilk;
 }
+.SkillsInfo li:hover{
+    color: rgb(255, 204, 0);
+}
 
 .Mydata-ContactMe a{
     color: cornsilk;
@@ -77,6 +80,12 @@
 .Projects-info ul{
     color: cornsilk;
     font-size: 20px;
+}
+.Projects-info .with-point:hover{
+    color: rgb(255, 204, 0);
+}
+.Projects-info li:hover{
+    color: rgb(255, 204, 0);
 }
 .Mydata-ContactMe{
     margin: 100px 378px;
