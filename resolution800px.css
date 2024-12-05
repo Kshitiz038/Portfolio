@@ -24,6 +24,7 @@
     }
     hr{
         width: 700px;
+        display: none;
     }
     .Mydata-Skills{
         .Skills{
