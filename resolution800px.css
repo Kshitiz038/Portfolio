@@ -2,6 +2,7 @@
     body {
       font-size: 12px;
       background-color: lightgray;
+      background-image: url(galaxy2.jpg);
     }
     .info{
         padding: 1px;

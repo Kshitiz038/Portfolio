@@ -8,6 +8,7 @@
     body {
       font-size: 12px;
       background-color: lightgray;
+      background-image: url(galaxy2.jpg);
     }
     nav{
       margin-right: -210px !important;
