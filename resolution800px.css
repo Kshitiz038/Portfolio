@@ -51,14 +51,6 @@
             font-size: 17px;
         }
     }
-    .Mydata-ContactMe{
-        display: none;
-    }
-    .Mydata-ContactMe h5{
-        margin-top: -50px;
-        margin: 0px -195px;
-    }
-    .Mydata-ContactMe svg{
-        margin: -7px 75px !important;
-    }
+   
+   
 }   

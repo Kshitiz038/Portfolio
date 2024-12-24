@@ -81,22 +81,35 @@ body hr{
     margin: 40px; 
     width: 93%;
 } 
-.buttons{
+/* .buttons{
     margin-left: 80px;
     
-} 
+}  */
+.Mail-Logo{
+    color: white;
+    margin: 3px 25px;   
+    transition: box-shadow 1s ease;
+}
+.Mail-Logo:hover{
+    color: bisque;
+    box-shadow: 0 0 2px 2px rgb(255, 255, 255,0.8);
+}
 .LinkedIn-logo{
     color: white;
-    margin-right: 65px;
+    margin-right: 30px;
+    transition: box-shadow 1s ease;
 }
 .github-logo{
     color: white;
+    transition: box-shadow 1s ease;
 }
 .LinkedIn-logo:hover{
     color: bisque;
+    box-shadow: 0 0 2px 2px rgb(255, 255, 255,0.8);
 }
 .github-logo:hover{
     color:bisque;
+    box-shadow: 0 0 2px 2px rgb(255, 255, 255,0.8);
 }
 .buttonss{
     display: none;
