@@ -9,7 +9,7 @@ var typed2 = new Typed('#element',{
                 'Graphic designing', 
                 'Web designing'
             ],
-            typeSpeed: 100,
+            typeSpeed: 300,
             loop: true
         });    
     },

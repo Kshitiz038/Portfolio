@@ -8,10 +8,10 @@
     body {
       font-size: 12px;
       background-color: lightgray;
-      background-image: url(galaxy2.jpg);
+      background-image: url(public/galaxy2.jpg);
     }
     nav{
-      margin-right: -210px !important;
+      margin-right: -239px !important;
     }
     .left{
         font-family: Cooper black;

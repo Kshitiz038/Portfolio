@@ -1,5 +1,7 @@
 .Mydata{
-    display: flex;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    border-radius: 300px;
     .Mydata-Skills{
         h5{
         margin: 0px 0px;
@@ -7,10 +9,10 @@
         }
         .Skills{
             font-family: Brush Script MT;
-            font-size: 55px;
+            font-size: 70px;
             color:cornsilk ; 
-            position: absolute;
-            margin-left: 30px; 
+            padding-left: 100px;
+            padding-top: 60px;
         }
         .image1{
             width: 25%;
@@ -21,36 +23,176 @@
     }    
 }    
 .SkillsInfo{
-    width: 300px;
+    width: 45%;
     padding: 40px;
     border: 2px solid burlywood;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 95px;
-    color: burlywood;
-    /* margin-right: 100px; */
-    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: 35px;
+    color: white;
+   
+    background-color: rgba(255, 255, 255, 0.6);
     margin-left: 35px;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter:blur(3px) ;
+    .Front-End{
+        font-family:  Brush Script MT;
+        color: cornsilk;
+        font-size: 50px;
+        text-align: center;
+    }
+    svg{
+        margin-left: 40px; 
+        animation: box-shadow 1s ease;
+    }
+    svg:hover{
+        box-shadow: 0 0 3px 3px black;
+        background-color: rgba(255, 228, 196,0.3);
+    }
+
 }
 
-.SkillsInfo h3 {
-    margin-bottom: 10px;
-    font-size: 18px;
-    color: cornsilk;
+.React{
+    img{
+        width: 21%;
+        border-radius: 300px;
+        position: absolute;
+        margin-left: 50px;
+        border: 1px solid black;
+    }
+   
+}
+.Back-EndInfo{
+    width: 45%;
+    padding: 40px;
+    margin-top: 35px;
+    border-radius: 10px;
+    border: 2px solid burlywood;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter:blur(3px) ;
+    margin-left: 420px;
+    .Front-End{
+        font-family:  Brush Script MT;
+        color: cornsilk;
+        font-size: 50px;
+        text-align: center;
+    }
+    svg{
+        margin-left: 125px; 
+        animation: box-shadow 1s ease;
+    }
+    svg:hover{
+        box-shadow: 0 0 3px 3px black;
+        background-color: rgba(255, 228, 196,0.3);
+    }
+}
+.Backimg{
+    img{
+        width: 21%;
+        border-radius: 300px;
+        position: absolute;
+        margin-left: 50px;
+        border: 1px solid black;
+    }
+   
+}
+.ToolsInfo{
+    width: 45%;
+    padding: 40px;
+    margin-top: 35px;
+    border-radius: 10px;
+    border: 2px solid burlywood;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter:blur(3px) ;
+    margin-left: 35px;
+    .Front-End{
+        font-family:  Brush Script MT;
+        color: cornsilk;
+        font-size: 50px;
+        text-align: center;
+    }
+    svg{
+        margin-left: 69px; 
+        animation: box-shadow 1s ease;
+    }
+    svg:hover{
+        box-shadow: 0 0 3px 3px black;
+        background-color: rgba(255, 228, 196,0.3);
+    }
+}
+.Toolsimg{
+    img{
+        width: 21%;
+        border-radius: 300px;
+        position: absolute;
+        margin-left: 50px;
+        border: 1px solid black;
+    }
+   
+}
+.MyWorks{
+    /* width: 100%; */
+    h1{
+        font-size: 80px;
+        font-family:  Brush Script MT ;
+        text-align: center;
+        padding-top: 80px;
+        color: cornsilk;
+      
+    }
+    .MyWorks0{
+
+        background-color: rgba(255, 228, 196,0.3) ;
+        box-shadow: 0 0 3px 3px black;
+        border-radius: 10px;
+        border: 2px solid burlywood;
+        padding-bottom: 45px;
+        padding-top: 25px;
+        margin: 100px 0px;
+        .MyWorks1{
+            display: flex;
+            a{
+                font-family: "Press start 2p";
+                color: white;
+                font-size: 30px;
+                margin-left: 200px;
+               
+                img{
+                    width: 24rem;
+                    border-radius: 300px;
+                    transition: border 2s ease;
+                }
+                img:hover{
+                    border: 1px solid white;
+                    box-shadow: 0 0 5px 5px rgba(186, 186, 186,0.8);
+
+                }
+             
+    
+              
+            }
+            a:hover{
+                color: bisque;
+                /* box-shadow: 0 0 2px 2px rgb(255, 255, 255,0.8); */
+            }
+            h3{
+                font-size: 35px;
+                margin-left: 20px;
+                margin-top: 178px;
+            }
+
+
+
+        }
+       
+    }
 }
 
-.SkillsInfo ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
 
-.SkillsInfo li {
-    font-size: 20px;
-    color: cornsilk;
-}
-.SkillsInfo li:hover{
-    color: rgb(255, 204, 0);
-}
 
 .Mydata-ContactMe a{
     color: cornsilk;
@@ -60,75 +202,23 @@
 
 
 .Mydata-Projects{
-    margin: 0px 99px;
-    padding-left: 60px;
-    margin-left: 158px;
+  
+    padding-left: 100px;
+    margin-left: 211px;
+    
 }
 .Projects{
     font-family: Brush Script MT;
     font-size: 65px;
     color: cornsilk;
-    padding-left: 580px;
-}
-.Projects-info{
-    font-size: 22px;
-    color: burlywood;
-    border-radius: 10px;
-    margin: 18px 7px;
-    border: black;
-    border: 2px solid ;
-    padding: 44px;
-    background-color: rgba(255, 255, 255, 0.3);
-    margin-left: 160px;
-}
+    padding-left: 400px;
+    list-style-type: disc; 
+     
 
-.Projects-info ul{
-    color: cornsilk;
-    font-size: 20px;
-}
-.Projects-info .with-point:hover{
-    color: rgb(255, 204, 0);
-}
-.Projects-info li:hover{
-    color: rgb(255, 204, 0);
-}
-.Mydata-ContactMe{
-    margin-left: 425px;
-    margin-top: 85px;
-}
-.Projectsbtn{
-    height: 32px;
-    font-family: cursive;
-    border-radius: 5px;
-    font-size: 15px;
-}
-.ContactMebtn{
-    height: 32px;
-    font-family: cursive;
-    border-radius: 5px;
-    font-size: 15px;
-}
-.Mydata-ContactMe svg{
-    margin: -7px 101px;
-    color: bisque;
 }
 
 
-.with-point {
-    position: relative;
-    padding-left: 20px; /* Space for the point */
-    font-family: Arial, sans-serif;
-}
 
-.with-point::before {
-    content: '•'; /* Unicode for a bullet point */
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    color: burlywood; /* Color of the point */
-    font-size: 18px; /* Adjust the size of the point */
-}
 #with-point {
     position: relative;
     padding-left: 20px; /* Space for the point */

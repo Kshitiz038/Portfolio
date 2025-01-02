@@ -2,7 +2,7 @@
     body {
       font-size: 12px;
       background-color: lightgray;
-      background-image: url(galaxy3.jpg);
+      background-image: url(public/galaxy3.jpg);
     }
     .info{
         padding: 1px;
@@ -13,6 +13,8 @@
     }
     .Mydata{
         display:flex!important;
+        -webkit-backdrop-filter: none!important;
+        backdrop-filter: none!important;
         flex-wrap: wrap;
     }
     nav{
@@ -27,30 +29,60 @@
         display: none;
     }
     .Mydata-Skills{
-        .Skills{
-            margin: 0px 46px;
-        }
         .SkillsInfo{
             width: 409px;
         }
-        .SkillsInfo li{
-            font-size: 22px;
+        .React{
+            display: none;
+        }
+    
+    }
+    .Backimg{
+        display: none;
+    }
+    .Back-EndInfo{
+        margin-left: 65px !important;
+        width: 25rem !important;
+
+    }
+    .ToolsInfo{
+        width: 25rem !important;
+        margin-left: 60px !important;
+
+
+
+    }
+    .Toolsimg{
+        display: none;
+    }
+    .MyWorks{
+        width: 30rem !important;
+
+        margin-left: 4rem !important;
+        h1{
+            padding-left: 309px !important;
+        }
+       
+
+        .MyWorks1{
+            display: contents!important;
+            a{
+                margin-left: 100px!important;
+            }
+            img{
+                width: 10rem !important;
+                margin-left: 4rem!important
+                
+            }
+            h3{
+                margin-top: 20px !important;
+                text-align: center;
+                font-size: 33px !important;
+            }
         }
     }
    
-    .Mydata-Projects{
-        .Projects{
-            margin-left: -755px;
-        }
-        .Projects-info{
-            font-size: 20px;
-            width: 389px;
-            margin: 15px -175px;
-        }
-        .Projects-info ul{
-            font-size: 17px;
-        }
-    }
+
    
    
 }   
