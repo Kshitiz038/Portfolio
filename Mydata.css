@@ -36,6 +36,7 @@
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter:blur(3px) ;
     .Front-End{
+        text-shadow: 1px 1px black;
         font-family:  Brush Script MT;
         color: cornsilk;
         font-size: 50px;
@@ -74,6 +75,7 @@
     backdrop-filter:blur(3px) ;
     margin-left: 420px;
     .Front-End{
+        text-shadow: 1px 1px black;
         font-family:  Brush Script MT;
         color: cornsilk;
         font-size: 50px;
@@ -110,6 +112,7 @@
     backdrop-filter:blur(3px) ;
     margin-left: 35px;
     .Front-End{
+        text-shadow: 1px 1px black;
         font-family:  Brush Script MT;
         color: cornsilk;
         font-size: 50px;
@@ -142,6 +145,7 @@
         text-align: center;
         padding-top: 80px;
         color: cornsilk;
+        text-shadow: 1px 1px black;
       
     }
     .MyWorks0{
@@ -180,6 +184,7 @@
                 /* box-shadow: 0 0 2px 2px rgb(255, 255, 255,0.8); */
             }
             h3{
+                text-shadow: 1px 1px black;
                 font-size: 35px;
                 margin-left: 20px;
                 margin-top: 178px;

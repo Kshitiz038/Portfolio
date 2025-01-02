@@ -14,12 +14,14 @@ body{
 .left{
     font-size: 39px;
     font-family: Cooper black;
+    text-shadow: 1px 1px black;
     /* padding: 80px; */
 }
 .left:hover{
     color: bisque;
 }
 nav{
+   
     display: flex;
     justify-content: space-around;
     align-items: center;
