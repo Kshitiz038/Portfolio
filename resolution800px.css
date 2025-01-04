@@ -59,8 +59,14 @@
         width: 30rem !important;
 
         margin-left: 4.5rem !important;
+
+        .MyWorks0{
+            padding-left: 0rem;
+            padding-right: 9rem;
+
+        }
         h1{
-            padding-left: 309px !important;
+            padding-left: 90px !important;
         }
        
 
@@ -77,7 +83,8 @@
             h3{
                 margin-top: 20px !important;
                 text-align: center;
-                font-size: 33px !important;
+                font-size: 13px !important;
+                padding-left: 120px;
             }
         }
     }
